@@ -25,7 +25,7 @@ const Header = () => {
             <div className="headerRight"><form ><input type="text" name="searchMovie" id="searchMovie" onChange={onChangeLocation}
                 placeholder="Search Movies"
                 value={location} /></form>
-                <button onClick={async () => {
+                <button style={{'background-color':'black','color':'whitesmoke','fontSize':'20px',border:'2px solid white','margin':'3px',padding:'-2px'}} onClick={async () => {
                     await fetch(`https://api.themoviedb.org/3/search/movie?api_key=f7e0c8d2f9cf6341f68c1606e7962da0&query=${location}&language=en-US&page=1&include_adult=false`)
                         .then(res => res.json())
                         .then(data =>{navigate('movie/'+data.results[0].id)})
