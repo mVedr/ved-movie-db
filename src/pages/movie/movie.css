@@ -135,6 +135,7 @@
 .movie__productionComapany {
     width: 200px;
     margin: 2rem;
+    background-color: whitesmoke;
 }
 
 .productionCompanyImage {
