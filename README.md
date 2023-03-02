@@ -15,3 +15,31 @@ My Mobile App(https://github.com/mVedr/orange-io)
 A Video Chat App(https://github.com/mVedr/video-chat-app)
 
 
+<h3>Packages Used:</h3>
+
+<table>
+
+<tr> 
+<th>Packages Used</th>
+<th>Reason</th>
+</tr>
+
+<tr>
+<td><a href="">Axios</a></td>
+<td>For making http requests to TMDB Server</td>
+</tr>
+
+<tr>
+<td><a href="">react-router-dom</a></td>
+<td>For managing routing of the app</td></tr>
+
+<tr>
+<td><a href="">react-loading-skeleton</a></td>
+<td>For styling movie cards when they are not loaded yet.</td>
+</tr>
+
+<tr>
+<td><a href="">react-responsive-carousel</a></td>
+<td>For styling movie cards .</td>
+</tr>
+</table>
