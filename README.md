@@ -2,7 +2,7 @@
 
 <h3>You can visit the site here  : https://ved-movie-database.netlify.app/ </h3>
 
-<h4>This is my first-ever project based on react, and also the first one I've hosted</h4>
+<h4>This is my first-ever project based on react, and also the first one I've hosted.</h4>
 
 <h5>Even though I have made many more complex and larger projects using react , flutter and next js, I have submitted this code as it is very clean and simple to understand.</h5>
 
@@ -43,3 +43,5 @@ A Video Chat App(https://github.com/mVedr/video-chat-app)
 <td>For styling movie cards .</td>
 </tr>
 </table>
+
+<h2>Installation And Setup</h2>
