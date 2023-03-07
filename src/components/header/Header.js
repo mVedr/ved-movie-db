@@ -29,7 +29,7 @@ const Header = () => {
                     await fetch(`https://api.themoviedb.org/3/search/movie?api_key=f7e0c8d2f9cf6341f68c1606e7962da0&query=${location}&language=en-US&page=1&include_adult=false`)
                         .then(res => res.json())
                         .then(data =>{navigate('movie/'+data.results[0].id)})
-                        .then(()=>{while(count!=1000){
+                        .then(()=>{while(count!=100){
                             count++;
                         }
                         refreshPage()
