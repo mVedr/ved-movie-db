@@ -45,28 +45,28 @@ A Video Chat App(https://github.com/mVedr/video-chat-app)
 </table>
 
 <h2>Installation And Setup</h2>
-1) Make sure you have Node Js installed
+<h4>1) Make sure you have Node Js installed</h4>
 Check for this by the following command :
 node --version
 
 If the command is getting recognised, then good to go. Otherwise can be downloaded from here.
 
-2) Then go to preferred directory and clone this project by running :
+<h4>2) Then go to preferred directory and clone this project by running :</h4>
 git clone https://github.com/mVedr/ved-movie-db.git
 
 
-3) Now move into the directory 'ved-movie-db' :
+<h4>3) Now move into the directory 'ved-movie-db' :</h4>
 cd ved-movie-db
 
 
-4) Now install all the required dependencies by simply running :
+<h4>4) Now install all the required dependencies by simply running :</h4>
 npm install
 
-5) Now get api key from here.
+<h4>5) Now get api key from here.</h4>
 It is optional though, because in this case user can simply use my key, but it is better to store our api keys safely in a .env file.
 I have not done that here, so that user can avoid the hassle of creating a new api key.
 
-6) Finally run this command and visit 'http://localhost:3000/' :
+<h4>6) Finally run this command and visit 'http://localhost:3000/' :</h4>
 npm run start
 
 <h2>Things I learned during this project</h2>
