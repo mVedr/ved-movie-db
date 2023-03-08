@@ -45,3 +45,35 @@ A Video Chat App(https://github.com/mVedr/video-chat-app)
 </table>
 
 <h2>Installation And Setup</h2>
+1) Make sure you have Node Js installed
+Check for this by the following command :
+node --version
+
+If the command is getting recognised, then good to go. Otherwise can be downloaded from here.
+
+2) Then go to preferred directory and clone this project by running :
+git clone https://github.com/mVedr/ved-movie-db.git
+
+
+3) Now move into the directory 'ved-movie-db' :
+cd ved-movie-db
+
+
+4) Now install all the required dependencies by simply running :
+npm install
+
+5) Now get api key from here.
+It is optional though, because in this case user can simply use my key, but it is better to store our api keys safely in a .env file.
+I have not done that here, so that user can avoid the hassle of creating a new api key.
+
+6) Finally run this command and visit 'http://localhost:3000/' :
+npm run start
+
+<h2>Things I learned during this project</h2>
+
+<h3>Dynamic API requests</h3>
+Even though this is a pretty basic project, one thing I had to work very hard on was the search functionality.
+Displaying popular movies was pretty easy as the api had only one end point. But search functionality required input from users dynamically and the hence api endpoints changed based on the user inputs.
+
+<h3>Delaying response time manually</h3>
+Another difficulty I faced was , I wanted the page to reload after every new input, but the issue was that page was getting refreshed before the data from api was being collected, hence no changes were being made in the webpage. So I thought of maintaining a counter which counts upto 1000 and then performs the reload.
